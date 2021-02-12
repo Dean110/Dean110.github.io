@@ -1,9 +1,26 @@
-body{
-    background-color: aqua;
+@import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Montserrat&display=swap");
+
+html {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
 }
-.container{
-    background-color: lightgreen;
+body {
+  background-image: url(../images/background.jpg);
 }
-header{
-    background-color: lightsalmon;
+h1, h2, h3 {
+  font-family: "Hammersmith One", sans-serif;
+}
+.container {
+  background-color: rgba(179, 200, 218, 0.65);
+}
+
+img {
+  border-radius: 15px;
+}
+.projects__project {
+  border: 2px solid black;
+  border-radius: 15px;
+}
+ul{
+    list-style: none;
 }
